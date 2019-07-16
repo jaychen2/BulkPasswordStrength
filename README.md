@@ -21,9 +21,9 @@ Test a bulk set of password against 15 different password checks.
 
 Bulk Password Strength Checker is inspired by NIST Special Publication 800-63B
 
-'''
-NIST Special Publication 800-63B
 _________________________________________________________________________________
+NIST Special Publication 800-63B
+
 2017 NIST Password Guidelines:
 
 -An eight character minimum and 64 character maximum length
