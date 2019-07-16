@@ -47,9 +47,9 @@ ________________________________________________________________________________
 1. Verbose Mode provides individual check information for each password. Turning verbose mode off will allow script to run faster.
 
 Verbose Output Examples:
---------------------------------------------
+
 A23456789
---------------------------------------------
+
 Password Remaining: 6
 Check 1: Passed
 Check 2: Passed
@@ -78,9 +78,9 @@ Time(Seconds):  0.7517054360000001
 
 -----------------------------------------------------------------------------------
 
---------------------------------------------
+
 P@ssw0rD
---------------------------------------------
+
 Password Remaining: 4
 Check 1: Passed
 Check 2: Passed
