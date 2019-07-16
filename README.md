@@ -19,9 +19,11 @@ Test a bulk set of password against 15 different password checks.
 14. Password List
 15. Leet Mode (e.g. p@ssw0rd)
 
-Bulk Password Strength Checker is inspired by NIST Special Publication 800-63B
+
 
 _________________________________________________________________________________
+Bulk Password Strength Checker is inspired by NIST Special Publication 800-63B
+
 NIST Special Publication 800-63B
 
 2017 NIST Password Guidelines:
