@@ -3,21 +3,23 @@ Jay Chen 07.16.2019
 
 Test a bulk set of password against 15 different password checks.
 
-1. Password Length
-2. Capital Letters
-3. Special Characters
-4. Numbers
-5. Birth Year
-6. Lower letters
-7. Repeating Numbers
-8. Repeating Letters
-9. Sequential Letters/Keyboard pattern
-10. Seasons
-11. Repeating Uppercase Letters
-12. Sequential Uppercase Letters
-13. Dictionary Words
-14. Password List
+1. Password Length (e.g. Less than 8/More than 64)
+2. Capital Letters (e.g. A-Z)
+3. Special Characters (e.g. !@#$%^&*() )
+4. Numbers (e.g. 0-9)
+5. Birth Year (e.g. 1900 - 2100)
+6. Lower letters e.g. a-z)
+7. Repeating Numbers (e.g. 111 ,222, 333, 123 , etc.)
+8. Repeating Letters (e.g. aaa, bbb, ccc)
+9. Sequential Letters/Keyboard pattern (e.g. abc, cbd, qwerty, qaz, etc.)
+10. Seasons (e.g. Spring, Summer, Fall, Winter)
+11. Repeating Uppercase Letters (e.g. AAA, BBB, CCC)
+12. Sequential Uppercase Letters (e.g. ABC, BCD, QAZ, etc.)
+13. Dictionary Words (10,000 Most Common Dictionary Words)
+14. Password List (10,000 Most Common Passwords)
 15. Leet Mode (e.g. p@ssw0rd)
+
+- Passwords are standardized to check for common dictionary words and common passwords by remvoing trailing numbers and special chars.
 
 
 
