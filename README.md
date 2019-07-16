@@ -1,5 +1,5 @@
 # BulkPasswordStrength.py
-# Jay Chen 07.16.2019
+Jay Chen 07.16.2019
 
 Test a bulk set of password against 15 different password checks.
 
@@ -36,7 +36,7 @@ ________________________________________________________________________________
 
 # Instructions:
 
-# 1. Verbose Mode provides individual check information for each password. Turning verbose mode off will allow script to run faster.
+1. Verbose Mode provides individual check information for each password. Turning verbose mode off will allow script to run faster.
 
 Verbose Output Examples:
 --------------------------------------------
@@ -98,13 +98,13 @@ Time(Seconds):  0.9247584329999999
 
 ------------------------------------------------------------------
 
-# *Password Strength is still being tuned* 
+*Password Strength is still being tuned* 
 
-# 2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
+2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
 
-# 3. Place the password list inside of passwordlist.txt
+3. Place the password list inside of passwordlist.txt
 
-# 4. After the script has been completed, the password and strength values will be listed in output.txt
+4. After the script has been completed, the password and strength values will be listed in output.txt
 
 Output.txt results:
 
