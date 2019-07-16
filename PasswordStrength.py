@@ -94,9 +94,9 @@ repeat_num = ['111','222','333','444','555','666','777','888','999','000','012',
 repeat_letters = ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff', 'ggg', 'hhh', 'iii', 'jjj', 'kkk', 'lll', 'mmm', 'nnn', 'ooo', 'ppp', 'qqq', 'rrr', 'sss', 'ttt', 'uuu', 'vvv', 'www', 'xxx', 'yyy', 'zzz']
 seq_letters = ['abc','bcd','cde','def','efg','ghi','hij','ijk','jkl','klm','lmn','mno','nop','opq','pqr','qrs','rst','stu','tuv','uvw','vwx','wxy','xyz','qwe','asd','zxc','qaz','wsx','edc','qwerty','1qa','2ws','3ed']
 seasons = ['Spring', 'Summer','Fall','Winter','spring','summer','fall','winter','SPRING','SUMMER','FALL','WINTER']
-repeat_special = ['!!!','@@@','###','$$$','%%%','^^^','&&&','***','   ']
+#repeat_special = ['!!!','@@@','###','$$$','%%%','^^^','&&&','***','   ']
 repeat_letters_upper = list(map(str.upper,['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff', 'ggg', 'hhh', 'iii', 'jjj', 'kkk', 'lll', 'mmm', 'nnn', 'ooo', 'ppp', 'qqq', 'rrr', 'sss', 'ttt', 'uuu', 'vvv', 'www', 'xxx', 'yyy', 'zzz']))
-seq_letters_upper = list(map(str.upper,['abc','bcd','cde','def','efg','ghi','hij','ijk','jkl','klm','lmn','mno','nop','opq','pqr','qrs','rst','stu','tuv','uvw','vwx','wxy','xyz']))
+seq_letters_upper = list(map(str.upper,['abc','bcd','cde','def','efg','ghi','hij','ijk','jkl','klm','lmn','mno','nop','opq','pqr','qrs','rst','stu','tuv','uvw','vwx','wxy','xyz','qwe','asd','zxc','qaz','wsx','edc','qwerty','1qa','2ws','3ed']))
 
 password_remaining = len(password_list)
 
