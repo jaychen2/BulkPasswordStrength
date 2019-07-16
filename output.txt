@@ -1,0 +1,1 @@
+"[('123456789', 76.75), ('azazazazazazazazazaz', 87.5), ('Password', 93.0), ('security1', 93.0), ('A23456789', 94.25), ('YeloFire!', 113.0), ('P@ssw0rD', 137.5)]"
