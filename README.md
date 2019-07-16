@@ -48,61 +48,61 @@ ________________________________________________________________________________
 
 Verbose Output Examples:
 
-A23456789
+**A23456789**
 
 Password Remaining: 6
-Check 1: Passed
-Check 2: Passed
-Check 3: Failed
-- Password does not contain a special letter
-Check 4: Passed
-Check 5: Passed
-Check 6: Failed
-- Password does not contain a lowercase
-Check 7: Failed
-- Password contains repeating/sequential numbers
-Check 8: Passed
-Check 9: Passed
-Check 10: Passed
-Check 11: Passed
-Check 12: Passed
-Check 13: Passed
-Check 14: Failed
-- Password contains a commonly used password
+* Check 1: Passed
+* Check 2: Passed
+* Check 3: Failed
+-Password does not contain a special letter
+* Check 4: Passed
+* Check 5: Passed
+* Check 6: Failed
+-Password does not contain a lowercase
+* Check 7: Failed
+-Password contains repeating/sequential numbers
+* Check 8: Passed
+* Check 9: Passed
+* Check 10: Passed
+* Check 11: Passed
+* Check 12: Passed
+* Check 13: Passed
+* Check 14: Failed
+-Password contains a commonly used password
 ['6789']
-Check 15: Passed
+* Check 15: Passed
 ____________________
-Check Pass: 11/15
-Strength: 94.25/140
-Time(Seconds):  0.7517054360000001
+* Check Pass: 11/15
+* Strength: 94.25/140
+* Time(Seconds):  0.7517054360000001
 
 -----------------------------------------------------------------------------------
 
 
-P@ssw0rD
+**P@ssw0rD**
 
 Password Remaining: 4
-Check 1: Passed
-Check 2: Passed
-Check 3: Passed
-Check 4: Passed
-Check 5: Passed
-Check 6: Passed
-Check 7: Passed
-Check 8: Passed
-Check 9: Passed
-Check 10: Passed
-Check 11: Passed
-Check 12: Passed
-Check 13: Passed
-Check 14: Passed
-Check 15: Failed
--  LEET Spelling Conversion
--  Leet String: password
+* Check 1: Passed
+* Check 2: Passed
+* Check 3: Passed
+* Check 4: Passed
+* Check 5: Passed
+* Check 6: Passed
+* Check 7: Passed
+* Check 8: Passed
+* Check 9: Passed
+* Check 10: Passed
+* Check 11: Passed
+* Check 12: Passed
+* Check 13: Passed
+* Check 14: Passed
+* Check 15: Failed
+-LEET Spelling Conversion
+-Leet String: password
 ____________________
-Check Pass: 14/15
-Strength: 137.5/140
-Time(Seconds):  0.9247584329999999
+* Check Pass: 14/15
+* Strength: 137.5/140
+* Time(Seconds):  0.9247584329999999
 
 ------------------------------------------------------------------
 
