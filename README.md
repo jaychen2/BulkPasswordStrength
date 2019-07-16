@@ -106,7 +106,7 @@ ____________________
 
 ------------------------------------------------------------------
 
-*Password Strength is still being tuned* 
+**Password Strength is still being tuned** 
 
 2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
 
