@@ -3,7 +3,7 @@ Jay Chen 07.16.2019
 
 Requirements:
 * Download all of the files listed in the repo.
-* 10000DictWord.txt, 10000Passwords.txt, output.txt, passwordlist.txt
+* 10000DictWord.txt, 10000Passwords.txt, output.txt, passwordlist.txt, PasswordStrength.py
 
 Test a bulk set of password against 15 different password checks.
 
@@ -45,12 +45,22 @@ NIST Special Publication 800-63B
 -Restrict commonly used passwords (e.g. p@ssw0rd, etc.)
 
 -Restrict passwords obtained from previous breach corpuses
-_________________________________________________________________________________
+
 
 
 # Instructions:
 
 1. Verbose Mode provides individual check information for each password. Turning verbose mode off will allow script to run faster.
+
+2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
+
+3. Place the list of the password you want to check inside of passwordlist.txt
+
+4. After the script has been completed, the password and strength values will be listed in output.txt
+
+Output.txt results:
+
+"[('123456789', 76.75), ('azazazazazazazazazaz', 87.5), ('Password', 93.0), ('security1', 93.0), ('A23456789', 94.25), ('YeloFire!', 113.0), ('P@ssw0rD', 137.5)]"
 
 Verbose Output Examples:
 
@@ -77,7 +87,7 @@ Password Remaining: 6
 -Password contains a commonly used password
 ['6789']
 * Check 15: Passed
-____________________
+
 * Check Pass: 11/15
 * Strength: 94.25/140
 * Time(Seconds):  0.7517054360000001
@@ -105,7 +115,7 @@ Password Remaining: 4
 * Check 15: Failed
 -LEET Spelling Conversion
 -Leet String: password
-____________________
+
 * Check Pass: 14/15
 * Strength: 137.5/140
 * Time(Seconds):  0.9247584329999999
@@ -114,14 +124,6 @@ ____________________
 
 **Password Strength is still being tuned** 
 
-2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
 
-3. Place the list of the password you want to check inside of passwordlist.txt
-
-4. After the script has been completed, the password and strength values will be listed in output.txt
-
-Output.txt results:
-
-"[('123456789', 76.75), ('azazazazazazazazazaz', 87.5), ('Password', 93.0), ('security1', 93.0), ('A23456789', 94.25), ('YeloFire!', 113.0), ('P@ssw0rD', 137.5)]"
 
 
