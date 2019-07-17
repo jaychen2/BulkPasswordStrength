@@ -1,6 +1,10 @@
 # BulkPasswordStrength.py
 Jay Chen 07.16.2019
 
+Requirements:
+* Download all of the files listed in the repo.
+* 10000DictWord.txt, 10000Passwords.txt, output.txt, passwordlist.txt
+
 Test a bulk set of password against 15 different password checks.
 
 1. Password Length (e.g. Less than 8/More than 64)
