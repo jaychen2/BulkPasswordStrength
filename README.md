@@ -19,7 +19,7 @@ Test a bulk set of password against 15 different password checks.
 14. Password List (10,000 Most Common Passwords)
 15. Leet Mode (e.g. p@ssw0rd)
 
-- Passwords are standardized to check for common dictionary words and common passwords by remvoing trailing numbers and special chars.
+- Passwords are standardized to check for common dictionary words and common passwords by removing trailing numbers and special chars.
 
 
 
@@ -112,7 +112,7 @@ ____________________
 
 2. Add additional words to the 10000DictWord or 10000Passwords file to customize the comparison. 
 
-3. Place the password list inside of passwordlist.txt
+3. Place the list of the password you want to check inside of passwordlist.txt
 
 4. After the script has been completed, the password and strength values will be listed in output.txt
 
